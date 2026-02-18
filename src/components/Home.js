@@ -1,11 +1,14 @@
-// filepath: /c:/Users/Admin/my-react-app/src/components/Home.js
 import React from 'react';
 
 function Home() {
   return (
-    <div className="text-center mt-5">
-      <h1>Welcome to My Profile!</h1>
-      <p>I am a passionate developer aiming to create impactful software solutions.</p>
+    <div className="home-content">
+      <h2 className="home-title">A Bit About Me</h2>
+      <p className="home-text">
+        I am a Zyrus Catalonia student at the University of Cabuyao. 
+        I am mostly working on UI & UX if you have a question kindly hmu on
+        my discord @suego2k.
+      </p>
     </div>
   );
 }
