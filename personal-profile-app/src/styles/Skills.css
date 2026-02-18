@@ -1,0 +1,24 @@
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 1.2em;
+  color: #555;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
